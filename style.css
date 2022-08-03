@@ -40,6 +40,7 @@ body {
     font-weight: 700;
     background-color: #ffffff;
     color: #000000;
+    overflow-x: hidden;
 }
 
 a {
@@ -178,6 +179,15 @@ input[type="radio"].visuality-hidden,
     margin-left: 279px;
 }
 
+.main-heder::after{
+    contain: "";
+    position: relative;
+    width: 30px;
+    height: 5px;
+    background-color: #f50000;
+    z-index: 2;
+}
+
 .site-navigation-item {
     font-size: 18px;
     line-height: 24px;
@@ -288,8 +298,8 @@ input[type="radio"].visuality-hidden,
 }
 
 .popular {
-    margin-top: 332px;
-    margin-left: 46px;
+    margin-top: 337px;
+    margin-left: 47px;
 }
 
 .popular-list {
@@ -310,7 +320,7 @@ input[type="radio"].visuality-hidden,
     opacity: 0.3;
 }
 
-.popular-link{
+.popular-link {
     letter-spacing: 0.1px;
     position: relative;
     top: 27px;
@@ -362,15 +372,106 @@ input[type="radio"].visuality-hidden,
     padding-bottom: 43px;
 }
 
-
 .servicess {
-    margin-left: 80px;
+    position: relative;
+    margin-top: 207px;
+    width: 5645px;
+    margin-left: -2400px;
+    height: 288px;
     display: flex;
     background-color: #E5E5E5;
 }
 
+.servicess-content {
+    position: relative;
+    width: 1250px;
+    left: 2271px;
+    margin-left: 575px;
+}
+
+.servicess-content::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 320px;
+    left: -124px;
+    bottom: 68px;
+    background-color: #000000;
+}
+
+.servicess-list {
+    position: relative;
+    right: 944px;
+    bottom: 28px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.servicess-item {
+    margin-bottom: 45px;
+}
+
+.servicess-item a {
+    background-color: #F0C52E;
+}
+
+.servicess .servicess-slide-1 {
+    position: absolute;
+    margin-left: 0px;
+    bottom: 146px;
+}
+
+.servicess-slide-1::after {
+    content: url("./svg/delivery.svg");
+    position: absolute;
+    bottom: -13px;
+    margin-left: 558px;
+}
+
+.servicess h2 {
+    width: 284.64px;
+    height: 39px;
+    left: 541px;
+    font-size: 47px;
+    line-height: 48px;
+    font-weight: 800;
+    align-items: center;
+    letter-spacing: 0.8px;
+}
+
+.servicess p {
+    width: 856px;
+    height: 75px;
+    left: 540px;
+    font-family: "OpenSans";
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+    align-items: center;
+    letter-spacing: 0.21px;
+    color: #464646;
+}
+
 .company-logos-list {
     display: flex;
+    margin-top: 95px;
+
+}
+
+.company-logos-list li {
+    margin-left: 39px;
+}
+
+.company-logos-list li {
+    opacity: 0.2;
+}
+
+.company-logos-list li:hover {
+    opacity: 1;
 }
 
 .information-columns {
