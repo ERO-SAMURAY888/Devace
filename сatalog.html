@@ -12,32 +12,32 @@
 </head>
 
 <body>
-    <header class="main-heder container">
+    <header class="main-heder container main-heder-catalog">
         <nav class="main-navigation">
             <a class="logo" href="index.html">
                 <img src="svg/logo.svg" alt="">
             </a>
             <div>
                 <ul class="user-navigation-list">
-                    <li class="user-navigation-item"><button class="search-button" type="button"><span
+                    <li class="user-navigation-item-catalog"><button class="search-button" type="button"><span
                                 class="search-hidden-button">Поиск по сайту</span></button>
-                        <form class="search-form" action="#" id="close-search-form">
-                            <input type="text" name="search" placeholder="Что ищите">
-                            <button class="search-button-hidden">Найти</button>
+                        <form class="search-form visuality-hidden" action="#" id="close-search-form">
+                            <input type="text" name="search" placeholder="Введенный текст">
+                            <button type="submit" class="search-button-hidden">Найти</button>
                         </form>
                         <script src="./serch.js"></script>
                     </li>
-                    <li class="user-navigation-item"><a class="login-link" href="#">Войти</a></li>
-                    <li class="user-navigation-item"><a class="compare" href="#">Сравнить</a></li>
-                    <li class="user-navigation-item"><a class="basket" href="#">Корзина</a></li>
+                    <li class="user-navigation-item-catalog"><a class="login-link-active" href="#">Шматко Даниил</a></li>
+                    <li class="user-navigation-item-catalog"><a class="login-link-close" href="#">Выйти</a></li>
+                    <li class="user-navigation-item-catalog"><a class="compare" href="#">Сравнить</a></li>
+                    <li class="user-navigation-item-catalog"><a class="basket" href="#">Корзина</a></li>
                 </ul>
             </div>
-
             <div>
                 <ul class="site-navigation-list">
                     <li class="site-navigation-item site-navigation-item-сatalog">
                         <a class="сatalog-link" href="сatalog.html">Каталог товаров</a>
-                        <ul class="сatalog-list">
+                        <ul class="сatalog-list visually-hidden">
                             <li class="сatalog-item">
                                 <ul class="сatalog-calumn-1">
                                     <li class="сatalog-item"><a href="#">Виртуальная реальность</a></li>
