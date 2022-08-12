@@ -1042,14 +1042,15 @@ footer {
     text-transform: uppercase;
 }
 
-.sorting-list{
+.sorting-list {
     display: flex;
 }
 
-.sorting-list a{
+.sorting-list a {
     font-family: "OpenSans";
     font-size: 14px;
     line-height: 18px;
+    font-weight: 400;
     align-items: center;
     margin-left: 20px;
 }
@@ -1062,4 +1063,29 @@ footer {
     bottom: 533px;
     left: 468px;
     height: 70px;
+}
+
+.characteristics label {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 39px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+}
+
+.produckts p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.16px;
+}
+
+.produckts{
+    display: flex;
+    width: 1005px;
+    flex-wrap: wrap;
+}
+
+.produckts li{
+    margin-left: 20px;
 }
